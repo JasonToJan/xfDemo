@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 带圆角 白色背景 黄色色边框  长方体 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+
+            <solid android:color="#FFFFFF" />
+
+            <corners android:topLeftRadius="25dp"
+                android:topRightRadius="25dp"
+                android:bottomRightRadius="25dp"
+                android:bottomLeftRadius="25dp" />
+
+            <stroke android:width="1dp"
+                android:color="@color/colorPrimary" />
+
+            <padding
+                android:left="5dp"
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"
+                />
+        </shape>
+    </item>
+</layer-list>
